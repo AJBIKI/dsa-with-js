@@ -104,11 +104,11 @@ for(let right=0;right<arr.length;right++){
 
     while(sum>=k){
 
-        minwindoeSize=Math.min(minwindoeSize,right-left+1)
+        minwindoeSize=Math.min(minwindoeSize,right-left+1);
 
-        sum=sum-arr[left]
+        sum=sum-arr[left];
 
-        left++
+        left++;
     }
 
    
